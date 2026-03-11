@@ -106,4 +106,17 @@ h1 {
 #answ1 {
     width: 300px;
     height: 150px;
+
+}
+
+.buttonPlay {
+    text-decoration: none;
+    color: var(--color1);
+    background-color: var(--color3);
+    padding: 10px 20px;
+    border-radius: 20%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    align-self: center;
+    margin-left: 30%;
 }
