@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color1: #40444B;
+    --color2: #998b85;
+    --color3: #c9bcbb;
+    --color4: #faf8f2;
+    --color5: #427039;
+    
+}
+
+h1, h2 {
+    font-family: "Montserrat Underline", sans-serif;
+    color: var(--color1)
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color1)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 60px;
+}
+
+.rules>p {
+    width: 46vw;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/* стили игры */
+.container_game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_game h2 {
+    color: var(--color1);
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 550;
+    
+}
+
+.title_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: var(--color3);
+    margin: 20px auto;
+}
+
+.incorrect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: var(--color3);
+    margin: 20px auto;
+}
+
+.incorrect h2 {
+    font-size: 60px;
+    color: rgb(255,0,0);
+}
+
+.correct h2 {
+    font-size: 60px;
+    color: #427039;
+}
+
+.canva {
+    width: 70vw;
+    height: 50vh;
+    background-color: var(--color2);
+}
+
+#game {
+    height: 301px;
+    width: 1200px;
+    z-index: 5;
+    position:absolute;
+}
+
+#answ1 {
+    width: 300px;
+    height: 150px;
+}
